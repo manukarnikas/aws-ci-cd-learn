@@ -7,6 +7,10 @@ cache:
 phases:
   install:
     commands:
+      - echo "=== NPM CACHE ==="
+      - npm config get cache
+      - du -sh /root/.npm 2>/dev/null || true
+      - find /root/.npm -type f | head -20
       - npm ci
 
   build:
