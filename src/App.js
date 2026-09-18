@@ -27,7 +27,7 @@ function App() {
         React.createElement(
             "main",
             { className: "content" },
-            React.createElement("h2", null, "Webpack Lab"),
+            React.createElement("h2", null, "Webpack Lab Cache added"),
             React.createElement(
                 "p",
                 null,
